@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Features from "./components/Features/Features";
 import Properties from "./components/Properties/Properties";
 import About from "./components/About/About";
+import CTA from "./components/CTA/CTA";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Features />
       <Properties />
       <About />
+      <CTA />
     </>
   );
 }
