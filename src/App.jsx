@@ -7,6 +7,7 @@ import About from "./components/About/About";
 import CTA from "./components/CTA/CTA";
 import FAQ from "./components/FAQ/FAQ";
 import Team from "./components/Team/Team";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <CTA />
       <FAQ />
       <Team />
+      <Contact />
     </>
   );
 }

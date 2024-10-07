@@ -4,7 +4,7 @@ import FacebookSVG from "../SVGs/Team/FacebookSVG";
 import TwitterSVG from "../SVGs/Team/TwitterSVG";
 import InstagramSVG from "../SVGs/Team/InstagramSVG";
 
-const TeamItem = ({member}) => {
+const TeamMember = ({member}) => {
     const {name, profession, image} = member || {}
   return (
     <div className="w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4">
@@ -44,4 +44,4 @@ const TeamItem = ({member}) => {
   );
 };
 
-export default TeamItem;
+export default TeamMember;

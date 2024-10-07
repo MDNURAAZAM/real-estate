@@ -1,6 +1,6 @@
 import React from "react";
-import TeamItem from "./TeamItem";
 import { team } from "../../utils";
+import TeamMember from "./TeamMember";
 
 const Team = () => {
   return (
@@ -27,7 +27,7 @@ const Team = () => {
         </div>
         <div className="-mx-4 flex flex-wrap justify-center">
           {team?.map((member) => (
-            <TeamItem key={member.name} member={member} />
+            <TeamMember key={member.name} member={member} />
           ))}
           
         </div>
