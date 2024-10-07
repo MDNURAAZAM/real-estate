@@ -5,6 +5,7 @@ import Features from "./components/Features/Features";
 import Properties from "./components/Properties/Properties";
 import About from "./components/About/About";
 import CTA from "./components/CTA/CTA";
+import FAQ from "./components/FAQ/FAQ";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Properties />
       <About />
       <CTA />
+      <FAQ />
     </>
   );
 }
