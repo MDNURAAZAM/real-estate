@@ -8,6 +8,7 @@ import CTA from "./components/CTA/CTA";
 import FAQ from "./components/FAQ/FAQ";
 import Team from "./components/Team/Team";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <FAQ />
       <Team />
       <Contact />
+      <Footer />
     </>
   );
 }
