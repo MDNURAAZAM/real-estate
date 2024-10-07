@@ -6,6 +6,7 @@ import Properties from "./components/Properties/Properties";
 import About from "./components/About/About";
 import CTA from "./components/CTA/CTA";
 import FAQ from "./components/FAQ/FAQ";
+import Team from "./components/Team/Team";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About />
       <CTA />
       <FAQ />
+      <Team />
     </>
   );
 }

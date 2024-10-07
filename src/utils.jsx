@@ -88,3 +88,27 @@ export const properties = [
     numberOfBathroom: 2,
   },
 ];
+
+export const team = [
+  {
+    name: 'Stuard Ferrel',
+    profession: 'Digital Marketer',
+    image: 'https://cdn-icons-png.freepik.com/256/4128/4128244.png?semt=ais_hybrid'
+  },
+  {
+    name: 'David Spencer',
+    profession: 'SEO Specialist',
+    image: 'https://cdn-icons-png.freepik.com/256/4128/4128244.png?semt=ais_hybrid'
+  },
+  {
+    name: 'Robert Manning',
+    profession: 'Content Strategist',
+    image: 'https://cdn-icons-png.freepik.com/256/4128/4128244.png?semt=ais_hybrid'
+  },
+  {
+    name: 'James Mitchell',
+    profession: 'Marketing Analyst',
+    image: 'https://cdn-icons-png.freepik.com/256/4128/4128244.png?semt=ais_hybrid'
+  }
+];
+

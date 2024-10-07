@@ -1,6 +1,7 @@
 import React from "react";
 import heroImage from '../../assets/images/hero/hero-image.png'
-import RectangleSVG from "../SVGs/RectangleSVG";
+import RectangleSVG from "../SVGs/FAQ/Hero/RectangleSVG";
+
 
 const Hero = () => {
   return (
